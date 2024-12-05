@@ -7,8 +7,10 @@ public class Persona {
     private String apellido2;
     private int edad;
     private double estatura = 1.80;
+    @SuppressWarnings("unused")
     private final String dni = null;
     enum Sexo {HOMBRE, MUJER, NO_BINARIO}
+    @SuppressWarnings("unused")
     private Sexo sexo;
     DiaDeLaSemana diaPreferido;
 
@@ -16,9 +18,7 @@ public class Persona {
 
     // CONSTRUCTORES
     public Persona() {
-    }
-
-    
+    }   
 
     public Persona(String nombre, Sexo sexo) {
         this.nombre = nombre;

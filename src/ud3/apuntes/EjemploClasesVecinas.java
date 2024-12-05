@@ -1,7 +1,9 @@
 package ud3.apuntes;
 
 public class EjemploClasesVecinas {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
+         
         Persona p = new Persona("Pepe");
         CuentaCorriente cc = new CuentaCorriente("55555555Z", -45);
         Fecha f = new Fecha();
@@ -10,7 +12,6 @@ public class EjemploClasesVecinas {
         System.out.println(cc.dni);
         System.out.println(cc.nombre);
         System.out.println(cc.saldo);
-         */
-
+        */
     }
 }

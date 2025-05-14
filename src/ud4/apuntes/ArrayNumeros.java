@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ArrayNumeros {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Introduce un número: ");
+        System.out.print("Introduce un número: Test");
         int n = sc.nextInt();
 
         int[] numeros = new int[n];
